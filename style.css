@@ -13,6 +13,10 @@ body{
     margin: 0;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-containers{
@@ -69,8 +73,59 @@ body{
     
 
 }
+/* FOOTER  */
+.foot-container{
+    position: relative;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(27, 158, 140);
+    border-top: solid 1px #8fd7ef;
+    padding: 20px;
+}
+.foot-container h1 {
+    margin-bottom: 0px;
+    
+}
+.foot-container p {
+    margin-top: 10px;
+}
+.team-container{
+    display: flex;
+    flex-direction: column;
+}
+.team-members{
+    display: flex;
+    gap: 10px;
+}
+.team-container > h4 {
+    margin-bottom: 0px;
+}
+.member:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 
+}
+.perfil-img{
+    display: block;
+    position: absolute;
+    width: 15%;
+    height: 150%;
+    bottom: 100%;
+    right: 15%;
+    
+}
 
+.perfil-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 10px rgb(5, 76, 71);
+}
+.ocultar {
+    display: none;
+}
 
 @media (max-width: 640px){
 
