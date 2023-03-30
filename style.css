@@ -9,6 +9,50 @@
     --lg:18px;
 
 }
+
+.icono {
+    width: 100px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--very-light-pink);
+    flex-direction: row;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: var(--very-light-pink);
+    border: 1px solid var(--white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar-left .ul-nav{
+    margin-left: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.ul-nav {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 body{
     margin: 0;
     font-family: 'Exo 2', sans-serif;
